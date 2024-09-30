@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://wallpapercave.com/wp/wp5201031.jpg');
+  background-size: cover; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  margin: 30px auto;
+  background: linear-gradient(135deg, #2e0143, #ae02fe);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 8px 25px rgb(239, 183, 249);
+}
+
+h1 {
+  text-align: center;
+  color: bisque;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #3a0237;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #f1f87d;
+  color: rgb(2, 1, 42);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #07013d;
+  color: beige;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: rgb(3, 116, 245);
+}
+
+li button {
+  background-color: #180103;
+  padding: 5px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li button.complete {
+  background-color: #037e24;
+}
+
+li button.edit {
+  background-color: #ff8707;
+}
+
+li button:hover {
+  opacity: 0.8;
+}
+
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1; /* On top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+}
+
+h2{
+  font-family:'Courier New', Courier, monospace;
+  color: rgb(39, 3, 63);
+}
+
+.modal-content {
+  background: linear-gradient(135deg, #f15cc9, #f4034b);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #740d02;
+  width: 30%;
+  border-radius: 8px;
+}
+
+.close {
+  color: #fcf9f9;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+}
+
+.modal button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #026218;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  background-color: #02f737;
+  color:black;
+}
