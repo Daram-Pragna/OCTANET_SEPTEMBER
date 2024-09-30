@@ -1,0 +1,217 @@
+body {
+    font-family: 'Times New Roman', serif;
+}
+
+header {
+    background-image: url("https://olenex.com/wp-content/uploads/2020/04/Header_caring4dGlobe_1920x680-v3.jpg");
+    background-size: cover;
+    background-position: center;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.head{
+    
+    color: darkgreen;
+    font-weight:bold;
+
+}
+
+#benefits img {
+    max-width: 400px;
+    margin-bottom: 15px;
+}
+
+#benefits .card {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.34);
+    transition: transform 0.3s ease-in-out;
+}
+
+#benefits .card:hover {
+    transform: translateY(-10px);
+}
+
+#benefits .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title{
+    color:darkmagenta;
+}
+
+.card-text{
+    color: rgb(14, 87, 86);
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px 20px;
+    background-color: #b9f4af;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #2d0246;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+/* Gallery Item */
+.gallery-item {
+    background-color: #f9f8f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 85%;
+    border-radius: 10px;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #4a0260;
+}
+
+
+.impact{
+    background: linear-gradient(150deg, #8ef5f5, #037ffc);
+}
+
+.h2{
+    color: darkblue;
+}
+
+.para{
+    color: rgb(24, 1, 62);
+}
+
+#impact h3 {
+    font-size: 2.5rem;
+    color: #125722;
+}
+
+.t1{
+    color: maroon;
+}
+
+.tp1{
+    color: deeppink;
+}
+
+.tp2{
+    color:crimson;
+}
+
+.s{
+    background: linear-gradient(135deg, #033a22, #00ff4c);
+}
+
+.carousel-item p {
+    font-size: 1.2rem;
+}
+
+.modal-header {
+    background-color: #95f79c; 
+    color:black;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.close {
+    color: white;
+    text-shadow: none;
+    opacity: 1;
+}
+
+.close:hover {
+    color: #e96262;
+}
+
+.modal-body {
+    font-size: 1rem;
+    color: #02400b;
+    text-align: center;
+}
+
+.modal-footer {
+    background-color: #01310f;
+    border-top: 1px solid #dee2e6;
+}
+
+.btn-secondary {
+    background-color: #f7eeee;
+    border-color: #490303;
+    color: darkred;
+}
+
+.btn-secondary:hover {
+    background-color: #fbcdcd;
+    border-color: #ab415a;
+    color: firebrick;
+}
+
+
+.modal-content {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.modal-dialog {
+    max-width: 500px;
+}
+
+
+footer {
+    background-color: rgb(242, 247, 177);
+}
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px; 
+    text-decoration: none;
+}
+
+.social-icons a i {
+    transition: color 0.3s ease;
+}
+
+.social-icons a[aria-label="Contact"] i {
+    color: #fc9c01; 
+}
+
+.social-icons a[aria-label="Instagram"] i {
+    color: #e1306c; 
+}
+
+.social-icons a[aria-label="Facebook"] i {
+    color: #3b5998; 
+}
+
+.social-icons a[aria-label="LinkedIn"] i {
+    color: #0077b5; 
+}
+
+.social-icons a:hover i {
+    opacity: 0.7; 
+}
